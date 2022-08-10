@@ -1,5 +1,5 @@
 @use './colors' as c;
-@use './components' as cmp;
+@import './components';
 @import './mixins';
 
 *,
