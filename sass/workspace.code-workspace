@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "ISLAND STRONKA",
+			"path": ".."
+		},
+		{
+			"name": "arrays-01-starting-code",
+			"path": "../../../JAVASCRIPT MAX/arrays-01-starting-code"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ISLAND STRONKA"
+	}
+}

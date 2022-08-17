@@ -9,14 +9,15 @@
 	height: 40px;
 	width: 70%;
 	background-color: c.$pure-white;
+	
 
-	&-left {
+	&--left {
 		bottom: 0;
 		left: -50px;
 		transform: skew(25deg);
 	}
 
-	&-leftright {
+	&--right {
 		top: 0;
 		right: -50px;
 		transform: skew(25deg);
@@ -46,6 +47,33 @@
 	&:hover::before {
 		transform: scaleX(1);
 		transform-origin: left;
+	}
+}
+
+.section-heading {
+	position: relative;
+	margin-bottom: 2em;
+	font-size: 3rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	color: c.$main-color;
+	letter-spacing: 2px;
+}
+
+.section-padding{
+	padding: 6em 2em;
+
+}
+
+@media(min-width: 768px){
+	.section-heading{
+		font-size: 3.6rem;
+	}
+
+	.section-padding{
+		padding: 8em 2em;
+	
 	}
 }
 
